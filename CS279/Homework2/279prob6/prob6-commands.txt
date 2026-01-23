@@ -1,0 +1,14 @@
+ 2000  mkdir 279prob6
+ 2001  chmod u+rwx,go-rwx 279prob6
+ 2002  echo "279prob6's permissions: " > 279prob6/prob6-perms.txt
+ 2003  ls -ld 279prob6 >> 279prob6/prob6-perms.txt
+ 2004  cd 279prob6
+ 2005  echo "Contents of a File" > prob6play.txt
+ 2006  chmod ugo+rw prob6play.txt
+ 2007  echo "prob6play.txt's initial permissions: " >> prob6-perms.txt
+ 2008  ls -l prob6play.txt >> prob6-perms.txt
+ 2009  chmod u=rwx,g=rw,o=x prob6play.txt
+ 2010  echo "prob6play.txt's modified permissions: " >> prob6-perms.txt
+ 2011  ls -l prob6play.txt >> prob6-perms.txt
+ 2012  history 13
+ 2013  history 14 > prob6-commands.txt

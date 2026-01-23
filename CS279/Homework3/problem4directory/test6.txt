@@ -1,0 +1,3 @@
+test6.txt
+File Number: 6
+TAG gotcha

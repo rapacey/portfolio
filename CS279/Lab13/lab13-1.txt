@@ -1,0 +1,37 @@
+CS 279 - Intro to Linux
+Lab 13, Problem 1
+
+Rob Pacey
+January 19, 2026
+
+1A) What pair of characters can you type, at any point, to simply re-execute the previous command?
+
+!!
+
+1B) What can you type to redo the command with number 46 in the command history?
+
+!46
+
+1C) What command can you type to just see the last 7 lines of the command history?
+
+history 7
+
+1D) What can you type to redo the most recent command starting with grep?
+
+!grep
+
+1E) What can you type to redo the most recent command including grep anywhere within it? (It might be part of a piped command, for example.)
+
+!?grep?
+
+1F) What can you type to redo the command 6 commands ago?
+
+!-6
+
+1G) What can you type to redo the immediately preceding command except replacing the first instance of 297 in that command with 279?
+
+^297^279
+
+1H) What can you type to redo the immediately preceding command except replacing all instances of 297 in that command with 279?
+
+!!:gs/297/279

@@ -1,0 +1,10 @@
+total 28
+4067691 -rw-rw-r-- 1 robpacey robpacey  524 Jan 19 13:46 hard-short-text.txt
+4067680 -rw-rw-r-- 1 robpacey robpacey   67 Jan 19 13:39 lab13-2-part1-orig.txt
+4067694 -rw-rw-r-- 1 robpacey robpacey  471 Jan 19 13:39 lab13-2-part2-links.txt
+4067695 -rw-rw-r-- 1 robpacey robpacey 1029 Jan 19 13:44 lab13-2-part3-chg1.txt
+4067687 -rw-rw-r-- 1 robpacey robpacey 1248 Jan 19 13:45 lab13-2-part4-chg2.txt
+4067690 -rw-rw-r-- 1 robpacey robpacey 1572 Jan 19 13:47 lab13-2-part5-chg3.txt
+4067696 -rw-rw-r-- 1 robpacey robpacey    0 Jan 19 13:47 lab13-2-part6-rm.txt
+4067692 -rw-rw-r-- 1 robpacey robpacey   26 Jan 19 13:34 lab13-2.txt
+4067674 lrwxrwxrwx 1 robpacey robpacey   14 Jan 19 13:37 soft-short-text.txt -> short-text.txt

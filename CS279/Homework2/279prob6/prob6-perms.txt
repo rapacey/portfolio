@@ -1,0 +1,6 @@
+279prob6's permissions: 
+drwx------ 2 robpacey robpacey 4096 Jan 11 14:25 279prob6
+prob6play.txt's initial permissions: 
+-rw-rw-rw- 1 robpacey robpacey 19 Jan 11 14:27 prob6play.txt
+prob6play.txt's modified permissions: 
+-rwxrw---x 1 robpacey robpacey 19 Jan 11 14:27 prob6play.txt

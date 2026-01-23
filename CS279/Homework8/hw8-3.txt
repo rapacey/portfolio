@@ -1,0 +1,46 @@
+CS 279 - Intro to Linux
+Homework 8, Problem 3
+
+Rob Pacey
+January 17, 2026
+
+A) Display only the first five lines of the file .bash_profile.
+
+head -n 5 .bash_profile
+
+B) Find all the differences between the contents of the files tweedledee and tweedledum, but only display the resulting lines that include twins somewhere within them. Then do a search of those lines for the character string "twins".
+
+diff tweedledee tweedledum | grep "twins"
+
+C) Change all appearances of the text string Sonoma in file SSU.txt to the string Humboldt, and save the resulting text to a new file named Humboldt.txt.
+
+sed 's/Sonoma/Humboldt/g' SSU.txt > Humboldt.txt
+
+D) Show the last 4 lines of every file in the current directory with the suffix .txt.
+
+tail -n 4 *.txt
+
+E) You want to archive the directory 279tools and all of its contents. Write a command that will do so, resulting in an archive file 279tools.tar
+
+tar -cvf 279tools.tar 279tools
+
+F) You now want to compress 279tools.tar. Write a command that will do so, using gzip, that will also let you know how much this file was compressed.
+
+gzip -v 279tools.tar
+
+G) Your result from 3 part f has been copied or e-mailed to another directory somewhere. Assume the current working directory is this other directory with this copy of 3 part f's result. Give the command to now uncompress it.
+
+gunzip 279tools.tar.gz
+
+H) Now give the command to extract the directory 279tools and its contents from the result of your command in 3 part g.
+
+tar -xvf 279tools.tar
+
+I) Now give a command you could use to recursively list all of the contents either of this extracted copy of 279tools or of 279tools.tar
+
+ls -R 279tools or find 279tools
+
+J) Write a sed command that will add four blanks to the beginning of each line in file lookity.txt, putting the result in shift-look.txt. (Hint: think of it as substituting 4 blanks for the beginning of each line.)
+
+sed 's/^/    /' lookity.txt > shift-look.txt
+

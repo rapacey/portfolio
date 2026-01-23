@@ -1,0 +1,36 @@
+CS 279 - Intro to Linux
+Lab 12, Problem 1
+
+Rob Pacey
+January 19, 2026
+
+A) There is a file named important-script.sh somewhere in the system
+
+Write find command that will locate this file, such that:
+
+Its result is to print its absolute pathname
+It starts searching in the home directory
+Redirects any error messages to /dev/null
+
+find ~ -type f -name 'important-script.sh' -print 2> /dev/null
+
+B) Paste in the absolute pathname your find command found for important-script.sh
+
+/home/robpacey/Homework/CS279/Lab12/important-script.sh
+
+C) Skipped
+
+D) Choose a common file suffix with multiple instances in the CS279 directory (.sh, .cpp, .sql or .txt)
+
+Write a find command starting in your home directory that will:
+
+Print the absolute pathname of the result
+Redirect error messages to /dev/null
+After error redirection, pipe result to wc -l
+
+find ~ -type f -name '*.sh' -print 2> /dev/null | wc -l
+
+E) Paste in the number of files your find command found
+
+27
+

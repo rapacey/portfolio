@@ -1,0 +1,34 @@
+CS 279 - Intro to Linux
+Homework 8, Problem 2
+
+Rob Pacey
+January 17, 2026
+
+A) Write a find command that will display the pathnames of all files named a.out starting from your home directory.
+
+find ~ -name "a.out"
+
+B) Write a find command that will display the pathnames of all files whose names end in .sh starting from the current working directory.
+
+find . -name "*sh"
+
+C) Write a find command that will display the pathnames of all directories with the name submitted starting from your home directory.
+
+find ~ -type d -name "submitted"
+
+D) Write a single find command that will give the pathnames of all directories whose names start with 279, starting from your home directory AND starting from my public_html directory, ~st10/public_html
+
+find ~ ~st10/public_html -type d -name "279*"
+
+E) Write a find command that will display the pathnames of all directories reachable from the current working directory whose permissions are exactly 755
+
+find . -type d -perm 755
+
+F) Write a find command piped to an appropriate wc command whose result will be the number of regular files starting from your home directory.
+
+find ~ -type f | wc -l
+
+G) Write a single find command involving piping, an appropriate tee command, and an appropriate wc command to write to file files-644.txt the pathnames of all regular files that have permissions 644 starting from your home directory, but only outputting to the screen the number of such files.
+
+find ~ -type f -perm 644 | tee files-644.txt | wc -l
+

@@ -1,0 +1,7 @@
+total 8
+-rw-rw-r-- 1 robpacey robpacey   32 Jan 16 11:42 backup-dates.txt
+-rw------- 1 robpacey robpacey 3082 Jan 16 11:42 Lab3prob1.txt
+-rw------- 1 robpacey robpacey    0 Jan 16 11:42 test1.txt
+-rw------- 1 robpacey robpacey    0 Jan 16 11:42 test2.txt
+Contents of ./text-backups/backup-dates.txt: 
+Fri Jan 16 11:42:10 AM CST 2026

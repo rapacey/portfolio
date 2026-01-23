@@ -1,0 +1,129 @@
+CS 279 - Week 5 Lab Exercise - January 16, 2026
+
+Type in your answers WITHIN this file
+(do NOT delete the questions!)
+
+Type YOUR NAME after the line:
+===============================
+
+Rob Pacey
+
+1. $0 within a shell script has as its value the name used for the
+calling shell script.
+
+What is the value of $0 when called from an interactive shell?
+
+Type below the result you get when you
+run the command:
+
+echo $0
+============
+
+When called from an interactive shell, the special parameter $0 expands to the name of the shell or the path used to invoke it.
+
+bash
+
+2. We will be talking more about bash environment variables!
+BUT in the meantime, we mentioned in our intro to them so far
+that the env command, when called with no arguments, will list
+all of the current shell's currently-in-effect environment variables
+and their values.
+
+...then choose one of the environment variables listed and type
+its name=value pair below:
+============
+
+SHELL=/bin/bash
+
+3. Also as part of our intro-so-far to environment variables:
+we mentioned that subprocesses inherit copies of them.
+Consider the environment variable you chose as your answer
+for question 2.
+
+Create a small bash script prob1-play or prob1-play.sh that
+has the usual first line and a comment containing at least both
+of your names, that then echoes the value of that environment
+variable to the screen.
+
+When you execute your script, type below what it prints to
+the screen.
+============
+
+Bash Script prob1-play.sh
+
+#!/bin/bash
+# Name: Rob Pacey
+echo $USER
+
+./prob1-play.sh
+robpacey
+
+4. Do you get similar behavior with a "regular" local shell variable?
+
+In your current nrs-projects ssh session, create a local variable
+prob1_val:
+
+prob1_val="TESTING"
+
+...and,
+
+*still in your current ssh session*
+
+, execute the command:
+
+echo "\$prob1_val: $prob1_val"
+
+Type below what is output to the screen by the above command.
+============
+
+$prob1_val: TESTING
+
+5. Now, add the following command to your bash script prob1-play or prob1-play.sh:
+
+echo "\$prob1_val: $prob1_val"
+
+When you now execute prob1-play, type below *both* lines that are now printed
+to the screen.
+============
+
+robpacey
+[blank line]
+
+The script runs in a new subprocess and the local variable doesn't transfer over without the export command.
+
+6. And now, again back in your current ssh session, again execute the command:
+
+echo "\$prob1_val: $prob1_val"
+
+Type below what is output this time to the screen by the above command.
+============
+
+$prob1_val: TESTING
+
+7. Now add two commands to your bash script prob1-play or prob1-play.sh,
+
+* one CHANGING the value of the inherited environment you echoed to the
+screen earlier in this script,
+
+* and one that now again echoes the value of that environment variable
+to the screen.
+
+When you now execute prob1-play, type below *all 3* lines that are now printed
+to the screen.
+============
+
+robpacey
+/bin/bash
+[blank line]
+
+8.
+*Back in your current ssh session*
+
+, type in a command that echoes to the screen the value of the environment variable you echoed and
+changed within prob1-play or prob1-play.sh.
+
+Type below what is printed to the screen by that command.
+============
+
+echo "$USER"
+robpacey

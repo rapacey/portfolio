@@ -1,0 +1,27 @@
+
+CS 279 - Intro to Linux
+
+Cal Poly Humboldt, Fall 2022
+
+Homework 2
+
+Problem 2
+
+Consider a directory with the following files:
+
+lab1.txt	lab2.txt	lab3.txt	OLDlab1.txt	 		
+OLDlab4.txt	ancestors.pl	save-it		slab-msrmts.txt
+rules.txt	lab45.rkt	lab754.pl	lab9.cpp
+
+A) Write an ls command with a SINGLE argument including file expansion wildcard character(s)
+after its option, that would give a long-list (including file permissions) of only those files with a suffix of .txt
+
+ls -l *.txt
+
+B) It turns out that save-it is a directory. Write a command, that uses only a SINGLE argument
+including file expansion wildcard character(s) before the directory name save-it, that would copy ONLY those files
+with a suffix of .txt whose names before this suffix consist only of lab followed by 0 or more characters.
+
+cp lab*.txt ~/Homework/CS279/Homework2/save-it
+
+--------------------------------------------------------------------------------------------------------------------------------

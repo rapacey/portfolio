@@ -1,0 +1,54 @@
+CS 279 - Intro to Linux
+Homework 9, Problem 3
+
+Rob Pacey
+January 18, 2026
+
+A) Create a regular file some-commands.txt that includes at least 3 Unix or Linux commands
+
+nano some-commands.txt
+
+Now create a symbolic/soft link named ref-s-commands.txt that refers to the file some-commands.txt
+
+ln -s some-commands.txt ref-s-commands.txt
+
+Now create a hard link named ref-h-commands.txt that refers to the file some-commands.txt
+
+ln some-commands.txt ref-h-commands.txt
+
+Write one or more ls -li commands to show the names and i-node numbers of the three files
+
+ls -l some-commands.txt ref-s-commands.txt ref-h-commands.txt
+
+Paste the results of these commands for your answer
+
+4067588 -rw-rw-r-- 2 robpacey robpacey 116 Jan 18 08:34 ref-h-commands.txt
+4067576 lrwxrwxrwx 1 robpacey robpacey  17 Jan 18 08:38 ref-s-commands.txt -> some-commands.txt
+4067588 -rw-rw-r-- 2 robpacey robpacey 116 Jan 18 08:34 some-commands.txt
+
+B) Write a find command that will find and print the names of all symbolic links reachable from your home directory
+
+find ~ -type l | -print
+
+C) Write a find command that will find and list all symbolic links in the current directory
+
+find . -type l | ls -l
+
+D) Call wc for ref-h-commands.txt, ref-s-commands.txt and some-commands.txt and paste the results as the first part of your answer
+
+ 24  24 116 some-commands.txt
+ 24  24 116 ref-s-commands.txt
+ 24  24 116 ref-h-commands.txt
+ 72  72 348 total
+
+Using nano, add the name of at least one additional Unix or Linux command of your choice to some-commands.txt and save that change
+
+Now, again call wc for both ref-commands.txt and some-commands.txt and paste int he results as the second part of your answer
+
+ 27  27 129 some-commands.txt
+ 27  27 129 ref-s-commands.txt
+ 27  27 129 ref-h-commands.txt
+ 81  81 387 total
+
+E) Skipped Question - I do not have access to nrs-projects root
+ 

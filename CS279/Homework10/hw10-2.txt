@@ -1,0 +1,13 @@
+CS 279 - Intro to Linux
+Homework 10, Problem 2
+
+a) date '+%A, %d %B, %Y'	Wednesday, 21 January, 2026
+
+b) cal 1 2026
+
+c) top
+
+d) sleep 4
+
+e) time ./experiment.sh
+

@@ -1,0 +1,46 @@
+CS 279 - Intro to Linux
+Lab 10, Problem 1
+
+Rob Pacey
+January 19, 2026
+
+1A)
+
+Write a grep command whose output will be just the names of files in the current directory that contain the line: #!/bin/bash
+
+grep '#\!/bin/bash' *
+
+1B)
+
+Now write a command that uses the tee command to capture the piped output of your grep command from 1 part a into the file script-list.txt before piping it onward to a wc command whose output will be the number of lines piped to it.
+
+grep '#\!/bin/bash' * | tee script-list.txt | wc -l
+
+1C)
+
+Write the output of your command from 1 part b when you run it in the Lab10 directory.
+
+5
+
+1D)
+
+Fun Fact: if you call wc with more than one file, it lists the desired count(s) as well as the file name.
+
+Write a command whose output will be the number of lines in each of the files in the current directory.
+
+wc -l *
+
+1E)
+
+Now write a command that used the tee command to capture the piped output of your wc command from 1 part d into a file line-sizes.txt before piping it to the sort command (which will then display these in order of least number of lines to the most number of lines).
+
+wc -l * | tee line-sizes.txt | sort -n
+
+1F)
+
+Run your command from 1 part e in the driver's ~/bin directory, redirecting its output into a file sorted-order.txt.
+
+wc -l * | tee line-sizes.txt | sort -n > sorted-order.txt
+
+Submit your file lab10-prob1.txt as well as the files script-list.txt,
+line-sizes.txt, and sorted-order.txt.

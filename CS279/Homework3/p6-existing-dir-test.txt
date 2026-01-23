@@ -1,0 +1,9 @@
+Preparing list of contents in problem6: 
+backup-to.sh
+file-type.sh
+Homework3Problem3.png
+new-file.txt
+p6-existing-dir-test.txt
+p6-new-dir-test.txt
+problem3file
+problem3file2

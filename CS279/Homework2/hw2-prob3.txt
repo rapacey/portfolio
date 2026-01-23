@@ -1,0 +1,43 @@
+
+CS 279 - Intro to Linux
+
+Cal Poly Humboldt, Fall 2022
+
+Homework 2
+
+Problem 3
+
+Consider the directory /example/cbrown. It contains the subdirectory football that contains:
+
+game1-score.txt		f22-schedule.txt 	past-seasons
+
+where past-seasons is itself a directory that contains:
+
+f21-schedule.txt	f21-scores	f20-schedule.txt	f20-scores
+
+A) Give the absolute pathname for the f21-schedule.txt file described above
+
+~/Homework/CS279/Homework2/example/cbrown/past-seasons/f21.schedule.txt/
+
+B) Assume that you are within the directory /example/cbrown (and that you have appropriate permissions)
+
+Write a single command using a relative pathname that would give the long listing (including permissions)
+for the file f20-schedule.txt described above
+
+ls -l ./football/past-seasons/f20-schedule.txt
+
+C) Assume that you are within the directory /example/cbrown (and that you have appropriate permissions)
+
+Write a single command that would move file f22-schedule.txt described above into the directory past-seasons described above
+
+mv ./football/f22-schedule.txt ./football/past-seasons/
+
+D) Assume that you are within the directory past-seasons described above. Write a single command without changing your current working directory
+and without using an absolute pathname that will give the long listing (including permissions) for the directory football described above.
+
+*Note that we want the permissions for the directory itself, not for its contents.
+
+ls -ld ..
+
+
+

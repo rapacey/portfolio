@@ -1,0 +1,16 @@
+Found a for loop!
+Loop Variable: i
+Iterating Over: ${!stuff[*]}
+
+Found a for loop!
+Loop Variable: i
+Iterating Over: ${!arr[*]}
+
+Found a for loop!
+Loop Variable: i
+Iterating Over: ${!arr[*]}
+
+Found a for loop!
+Loop Variable: i
+Iterating Over: ${!arr[*]}
+

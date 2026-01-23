@@ -1,0 +1,171 @@
+CS 279 - Week 3 Lab Exercise - January 16, 2026
+Type in your answers WITHIN this file
+(do NOT delete the questions!)
+
+Type YOUR NAME after the line:
+===============================
+
+Rob Pacey
+
+1. Consider this set of permissions:
+
+-rw-r-----
+
+Assume you have a file named lab1.txt in your current working
+directory.
+
+Write a chmod command that will explicitly give lab1.txt
+these permissions.
+
+============
+
+chmod 640 lab1.txt
+
+2. Consider this set of permissions:
+
+drwxr-xr--
+
+Assume you have a directory named lab-stuff in your current working
+directory.
+
+Write a chmod command that will explicitly give lab-stuff these
+permissions.
+
+============
+
+chmod 754 lab-stuff
+
+3. Assume you have a file named lab2.txt in your current working
+directory.
+
+Assume this chmod command is done:
+
+chmod 664 lab2.txt
+
+After this command is done, how would lab2.txt's permissions be
+displayed by:
+
+ls -l lab2.txt
+============
+
+-rw-rw-r--
+
+4. Assume you have a directory named lab-things in your current
+working directory.
+
+Assume this chmod command is done:
+
+chmod 711 lab-things
+
+After this command is done, how would lab-things' permissions be
+displayed by:
+
+ls -ld lab-things
+============
+
+drwx--x--x
+
+5. Write a shell command setting a local shell variable our_names so that
+its value is both of your names.
+
+============
+
+our_names="Rob Pacey"
+
+6. Write a shell command, using your shell variable from Problem 5,
+that will echo the value of that shell variable you
+created in Problem 5 to the screen.
+============
+
+echo "$our_names"
+
+7. Fun fact: command wc, word count, can, as one of its possibilities,
+be given the name of a file as its argument,
+and it prints the number of lines, words, and bytes in that file.
+
+Write a shell command setting a local variable stats so that its
+value is the result of calling the wc command on this file
+279lab03-prob1.txt.
+============
+
+stats=$(wc 279lab03-prob1.txt)
+
+8. Write a shell command, using your variable from Problem 7,
+that will echo the value of that shell variable you created
+in Problem 7 to the screen.
+============
+
+echo "$stats"
+
+9. Assume this shell command has been run:
+
+question="How are you?"
+
+For each statement below, type what it would print to the screen:
+
+============
+
+echo $question
+
+How are you?
+
+echo "$question is my question"
+
+How are you? is my question
+
+echo 'Why not ask $question'
+
+Why not ask $question
+
+echo \$question: $question
+
+$question: How are you?
+
+10. Assume this shell command has now also been run (after Problem 9's
+shell command):
+
+question2="What does it mean?"
+
+For each statement below, type what it would print to the screen:
+
+============
+
+echo $question2
+
+What does it mean?
+
+echo ${question}2
+
+How are you?2
+
+11. Assume this shell command has been run:
+
+let quantity=13
+
+For each fragment below, type what the last line in that fragment
+would print to the screen:
+
+============
+
+let quantity=$quantity+10
+echo $quantity
+
+23
+
+let quantity=113
+quantity=$quantity+20
+echo $quantity
+
+113+20
+
+let quantity=213
+quantity+=30
+echo $quantity
+
+21330
+
+let quantity=313
+let quantity+=40
+echo $quantity
+
+353

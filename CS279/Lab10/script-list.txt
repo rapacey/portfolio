@@ -1,0 +1,5 @@
+array-play.sh:#!/bin/bash
+lab10-prob1.txt:Write a grep command whose output will be just the names of files in the current directory that contain the line: #!/bin/bash
+linux-journal-ex.sh:#!/bin/bash
+quoted-play.sh:#!/bin/bash
+rematch-play.sh:#!/bin/bash

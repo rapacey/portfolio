@@ -1,0 +1,38 @@
+Starting state:
+/home/robpacey/Homework/CS279/Lab12
+
+Initial state of lab12-1.txt
+-rw-rw-r-- 1 robpacey robpacey 960 Jan 19 09:10 lab12-1.txt
+Initial state of directory tartest12
+drwxrwxr-x 2 robpacey robpacey 4096 Jan 19 10:16 tartest12
+total 0
+-rw-rw-r-- 1 robpacey robpacey 0 Jan 19 10:16 sample_file.txt
+------------------------
+Using gzip and gunzip...
+
+File after gzip:
+-rw-rw-r-- 1 robpacey robpacey 499 Jan 19 09:10 lab12-1.txt.gz
+File after gunzip:
+-rw-rw-r-- 1 robpacey robpacey 960 Jan 19 09:10 lab12-1.txt
+------------------------
+Creating tar file...
+
+tartest12/
+tartest12/sample_file.txt
+Resulting tar file:
+-rw-rw-r-- 1 robpacey robpacey 10240 Jan 19 10:20 Lab12.tar
+
+------------------------
+Changing to a new directory: 
+
+-------------------------
+Unpacking tar in the new location:
+tartest12/
+tartest12/sample_file.txt
+
+-------------------------
+Showing copy is now in a different directory
+/home/robpacey/Homework/CS279/Lab12_Copy
+drwxrwxr-x 2 robpacey robpacey 4096 Jan 19 10:16 tartest12
+total 0
+-rw-rw-r-- 1 robpacey robpacey 0 Jan 19 10:20 sample_file.txt

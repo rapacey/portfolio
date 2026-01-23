@@ -1,0 +1,32 @@
+
+CS 279 - Intro to Linux
+
+Cal Poly Humboldt, Fall 2022
+
+Homework 2
+
+Problem 4
+
+A) Create a local variable prob4 witha value of your choice
+
+prob4=5
+
+B) Write an echo command to display $prob4 has the value followed by the value of $prob4
+
+echo "\$prob4 has teh value $prob4"
+
+C) Write an echo command to display a string of 3 letter o's immediately followed by the value of $prob4
+
+echo "ooo$prob4"
+
+D) Write an echo command to display the value of $prob4 immediately followed by a string of 4 letter o's
+
+echo "$prob4""ooo"
+
+E) Write an echo command to display a string of 3 letter o's immediately followed by the value of $prob4 immediately
+followed by a string of 3 letter o's
+
+echo "ooo""$prob4""ooo"
+
+
+--------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,23 @@
+Directory Contents:
+After running use-fodder.sh:
+test10.txt:TAG gotcha
+test11.txt:TAG gotcha
+test12.txt:TAG gotcha
+test13.txt:TAG gotcha
+test14.txt:TAG gotcha
+test15.txt:TAG gotcha
+test16.txt:TAG gotcha
+test17.txt:TAG gotcha
+test18.txt:TAG gotcha
+test19.txt:TAG gotcha
+test1.txt:TAG gotcha
+test20.txt:TAG gotcha
+test2.txt:TAG gotcha
+test3.txt:TAG gotcha
+test4.txt:TAG gotcha
+test5.txt:TAG gotcha
+test6.txt:TAG gotcha
+test7.txt:TAG gotcha
+test8.txt:TAG gotcha
+test9.txt:TAG gotcha
+

@@ -1,0 +1,17 @@
+CS 279 - Intro to Linux
+Lab 8, Problem 2
+
+Rob Pacey
+January 17, 2026
+
+A) A programmer misspelled the project name Best Value as Boast Value in files they worked on within the current directory! Write a command that will list JUST the names of files that need to be fixed.
+
+grep -l "Boast Value" *
+
+B) Now write a command that will show each line with "Boast Value" in it, each preceded by the file name it is in and the line number it is on.
+
+grep -nH "Boast Value" *
+
+C) The programmer made this mistake in different combos of lowercase & uppercase! Write a command finding files containing "Boast Value" in any combination of case, giving a count of the number of occurrences in each file in the current directory.
+
+grep -ic "Boast Value" *

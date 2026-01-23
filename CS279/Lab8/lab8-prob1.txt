@@ -1,0 +1,30 @@
+CS 279 - Intro to Linux
+Lab 8, Problem 1
+
+Rob Pacey
+January 17, 2026
+
+A) Write a file glob pattern that will match files with suffix .txt whose names (before the .txt) are of length 4. (For example, oh57.txt should match, yep57.txt and no3.txt should not match.)
+
+????.txt
+
+B) Write a file glob pattern that will match files whose names start with X, Y, or Z, and have the suffix .cpp.
+
+[XYZ]*.cpp
+
+C) Write a file glob pattern that will match files whose names contain at least one digit (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, or 0) within it. (There is more than one reasonable pattern for this.)
+
+*[0-9]* or *[[:digit:]]*
+
+D) Write a file glob pattern that will match files whose names start with a lowercase letter and contain at least two consecutive digits within it. (For example, oh57.cpp should match, Yep57.txt and no3.py and try3x5 should not match.) (There is more than one reasonable pattern for this.)
+
+[[:lower:]]*[0-9][0-9]*
+
+E) Write a file glob pattern that will match files whose names are length 3 or longer.
+
+???*
+
+f) Write a file glob pattern that will match files whose names are length 2 or longer and start with an uppercase letter, followed by anything except a vowel (anything except a, e, i, o, u, A, E, I, O, U). (There is more than one reasonable pattern for this.)
+
+[[:upper:]][!aeiouAEIOU]*
+

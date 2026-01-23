@@ -1,0 +1,19 @@
+#CS 45 - Stanford University
+#Assignment 1, Winter 2023
+
+#Rob Pacey
+#January 22, 2026
+
+Answers to questions from Lessons 1-10 on regexone.com
+
+1. ^abc*
+1.5 123
+2. ...\.
+3. [cmf]an
+4. [^b]og
+5. [A-C][n-p][a-c]
+6. waz{3,5}up
+7. "aa+b*c+" or a{2,4}b{0,4}c{1,2}
+8. [0-9]+files?found\?
+9. \d\.\s+abc
+10. ^Mission: successful$

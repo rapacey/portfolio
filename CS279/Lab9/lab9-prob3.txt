@@ -1,0 +1,42 @@
+CS 279 - Intro to Linux
+Lab 9, Problem 3
+
+Rob Pacey
+January 18, 2026
+
+3A)
+
+Write an ERE that will match any line containing /* or // or # .
+
+/\*|//|#
+
+3B)
+
+Write an ERE that will match any line containing JUST a # followed by one or more digits.
+
+^#[0-9]+$
+
+3C)
+
+Write an ERE that will match any line containing JUST a reasonable integer -- here we'll define a reasonable integer as a sequence of digits, optionally starting with a + or -. (Remember that + is special, and needs to be escaped.)
+
+^[+-]?[0-9]+$
+
+3D)
+
+Write an ERE that will match any line containing a sequence of digits, optionally containing a single decimal point at any position (including the beginning of the end). (Remember that . is special, and needs to be escaped.)
+
+([0-9]+\.?[0-9]*)
+
+3E)
+
+Write an ERE that will match any line containing JUST a reasonable number -- here, we'll define a reasonable number as a sequence of digits, optionally starting with a + or -, and optionally containing a single decimal point. (In this case, we'll accept a decimal point at the end or beginning as well -- .3 and 9. for example.)
+
+^[+-]?[0-9]+\.?[0-9]*|\.[0-9]+$
+
+3F)
+
+Fun fact: character class [[:alpha:]] matches any alphabetic character.
+Write an ERE that will match any line containing JUST an acceptable file name with the suffix .cpp, the suffix .h, or the suffix .txt. (Assume for this problem's purposes that an acceptable file name contains one or more alphabetic characters, digits, underscores, and/or dashes before one of those suffixes.)
+
+^[[:alpha:]0-9_-]+\.(cpp|h|txt)$

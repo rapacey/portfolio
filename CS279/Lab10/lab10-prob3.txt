@@ -1,0 +1,25 @@
+CS 279 - Intro to Linux
+Lab 10, Problem 3
+
+Rob Pacey
+January 19, 2026
+
+A) Consider the ERE:
+
+for\ (.+)\ in\ (.+)$
+
+This should match for loops within a Bash shell script.
+
+B) Consider the first line of an if statement:
+
+if [[ $next_line =~ for\ (.+)\ in\ (.+)$ ]]
+
+${BASH_REMATCH[1]} should contain the loop variable (the part between for and in)
+
+${BASH_REMATCH[2]} should contain the list of items or range being iterated over (everything after the word in until the end of the line)
+
+C) Write a Bash script grab-for-info.sh
+
+D) In your current working directory, create a copy of one of the Bash scripts
+
+Run your script grab-for-info.sh on one of those files, redirecting the result into a file grab-for-demo.txt

@@ -1,0 +1,38 @@
+CS 279 - Intro to Linux
+Rob Pacey
+January 15, 2026
+
+5A) Add to/extend your executable path within your current shell to include ~st10/279stuff and ~/bin and the current directory
+
+PATH=$PATH:~st10/279stuff:~/bin:~/Homework/CS279/Homework5
+
+5B) Within your current shell, create a custom version of the rm command so that it runs the -i option whenever you type just rm
+
+alias rm='rm-i'
+
+5C) Output the names of all files in the current directory whose names start with an uppercase X or Y or Z and end with a lowercase a or b or c
+
+ls ^[XYZ]*[abc]$
+
+5D) Output the names of all files in the current directory whose names:
+
+a) start with test
+b) end with either 0, 2, 4, 6, or 8 directly before an ending suffix .txt
+
+ls ^test*[02468].txt$
+
+5E) Display all the lines in file "fred" that include a string starting with an uppercase X and ending with a lowercase a
+
+grep -E '^X*a$' fred
+
+5F) Display all lines in file "fred" that include a string of 5 or more lowercase k's in a row immediately followed by a lowercase j
+
+grep -E 'kkkkk+j' fred
+
+5G) Display all lines in file "fred" that include a string of 5 lowercase k's in a row followed by any characters and then followed by a lowercase j
+
+grep -E 'kkkkk.*j' fred
+
+5H) Write a BRE that would match a C++ indentifier
+
+[A-Za-z][*A-Za-z0-9_]* 

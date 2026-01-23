@@ -1,0 +1,8 @@
+   0 line-sizes.txt
+   5 script-list.txt
+  24 rematch-play.sh
+  30 linux-journal-ex.sh
+  46 lab10-prob1.txt
+  47 quoted-play.sh
+  63 array-play.sh
+ 215 total

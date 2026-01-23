@@ -1,0 +1,46 @@
+CS 279 - Intro to Linux
+Lab 9 Problem 2
+
+Rob Pacey
+January 18, 2026
+
+2A)
+
+In the Week 8 Lab Exercise Problem 3 part b, you wrote a BRE pattern that will match any line containing CS followed by a blank followed by a 3-digit number.
+For this problem, write a BRE that includes an appropriate interval expression that will match any line containing JUST CS followed by a blank followed by a 3-digit number.
+
+^CS [0-9]\{3\}$
+
+2B)
+
+Write a BRE that includes an appropriate interval expression that will match any line that includes a sequence of 4 or more uppercase letters within it.
+
+[A-Z]\{4,\}
+
+2C)
+
+Write a BRE that includes an appropriate interval expression that will match any line containing JUST 5 or 6 or 7 or 8 lowercase letters.
+
+^[a-z]\{5,8\}$
+
+2D)
+
+Write a BRE that will match any line that contains JUST a string of 1 or more Xs followed by a dash followed by the SAME number of Xs.
+
+(So, for example, these should match:
+X-X
+XX-XX
+XXX-XXX
+...but these should not:
+XX-XXX
+XXXX-X
+)
+
+(^\(X\{1,\}\)-\1$
+
+2E)
+
+Write a BRE that will match any line that contains a repeated string of 1 or more digits.
+
+\([0-9]\{1,\}\)\1
+

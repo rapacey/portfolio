@@ -1,0 +1,7 @@
+total 16
+4067691 -rw-rw-r-- 2 robpacey robpacey 67 Jan 19 13:33 hard-short-text.txt
+4067680 -rw-rw-r-- 1 robpacey robpacey 67 Jan 19 13:39 lab13-2-part1-orig.txt
+4067694 -rw-rw-r-- 1 robpacey robpacey  0 Jan 19 13:39 lab13-2-part2-links.txt
+4067692 -rw-rw-r-- 1 robpacey robpacey 26 Jan 19 13:34 lab13-2.txt
+4067691 -rw-rw-r-- 2 robpacey robpacey 67 Jan 19 13:33 short-text.txt
+4067674 lrwxrwxrwx 1 robpacey robpacey 14 Jan 19 13:37 soft-short-text.txt -> short-text.txt

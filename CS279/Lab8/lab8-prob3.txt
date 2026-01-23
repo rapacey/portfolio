@@ -1,0 +1,46 @@
+CS 279 - Intro to Linux
+Lab 8, Problem 3
+
+Rob Pacey
+January 17, 2026
+
+A) Write a BRE pattern that will match any line starting with Romeo: (this might grab each of Romeo's first lines from a script, for example).
+
+grep '^Romeo:'
+
+B) Write a BRE pattern that will match any line containing CS followed by a blank followed by a 3-digit number. (There is more than one reasonable BRE for this.)
+
+grep 'CS [0-9][0-9][0-9]'
+
+C) Write a BRE pattern that will match any line ending with a semicolon.
+
+grep ';$'
+
+D) Write a BRE pattern that will match any line ending with either a semicolon OR a curly brace OR a closing parenthesis.
+
+grep '[;})]$'
+
+E) Write a BRE pattern that will match any line containing one followed by any single character followed by two.
+
+grep 'one.two'
+
+F) Write a BRE pattern that will match any line containing main.txt (but not one containing just mainytxt or just main3txt etc.)
+
+grep 'main\.txt'
+
+G) Write a BRE pattern that will match any line starting with an x followed by zero or more y characters.
+
+grep '^xy*'
+
+H) Write a BRE pattern that will match any line that starts with a lowercase letter and ends with an uppercase letter.
+
+grep '^[[:lower:]].*[[:upper:]]$'
+
+I) Note that ! is special and will need to be escaped. Write a BRE pattern that will match the first line that should start a CS 279 bash shell script
+
+grep '^#\!/bin/bash'
+
+J) It may vary a bit by locale, but basically the character class [[:blank:]] matches space and tab. Using this character class, write a BRE pattern that will match any line ending with one or more spaces and/or tabs.
+
+grep '[[:blank:]][[:blank:]]*$'
+
