@@ -1,0 +1,213 @@
+ABW : Aruba : Aruba : Latin America & Caribbean
+ADO : Andorra : Principality of Andorra : Europe & Central Asia
+AFG : Afghanistan : Islamic State of Afghanistan : South Asia
+AGO : Angola : People's Republic of Angola : Sub-Saharan Africa
+ALB : Albania : Republic of Albania : Europe & Central Asia
+ANT : Netherlands Antilles : Netherlands Antilles : Latin America & Caribbean
+ARE : United Arab Emirates : United Arab Emirates : Middle East & North Africa
+ARG : Argentina : Argentine Republic : Latin America & Caribbean
+ARM : Armenia : Republic of Armenia : Europe & Central Asia
+ASM : American Samoa : American Samoa : East Asia & Pacific
+ATG : Antigua and Barbuda : Antigua and Barbuda : Latin America & Caribbean
+AUS : Australia : Commonwealth of Australia : East Asia & Pacific
+AUT : Austria : Republic of Austria : Europe & Central Asia
+AZE : Azerbaijan : Republic of Azerbaijan : Europe & Central Asia
+BDI : Burundi : Republic of Burundi : Sub-Saharan Africa
+BEL : Belgium : Kingdom of Belgium : Europe & Central Asia
+BEN : Benin : Republic of Benin : Sub-Saharan Africa
+BFA : Burkina Faso : Burkina Faso : Sub-Saharan Africa
+BGD : Bangladesh : People's Republic of Bangladesh : South Asia
+BGR : Bulgaria : Republic of Bulgaria : Europe & Central Asia
+BHR : Bahrain : Kingdom of Bahrain : Middle East & North Africa
+BHS : Bahamas, The : Commonwealth of The Bahamas : Latin America & Caribbean
+BIH : Bosnia and Herzegovina : Bosnia and Herzegovina : Europe & Central Asia
+BLR : Belarus : Republic of Belarus : Europe & Central Asia
+BLZ : Belize : Belize : Latin America & Caribbean
+BMU : Bermuda : The Bermudas : North America
+BOL : Bolivia : Plurinational State of Bolivia : Latin America & Caribbean
+BRA : Brazil : Federative Republic of Brazil : Latin America & Caribbean
+BRB : Barbados : Barbados : Latin America & Caribbean
+BRN : Brunei Darussalam : Brunei Darussalam : East Asia & Pacific
+BTN : Bhutan : Kingdom of Bhutan : South Asia
+BWA : Botswana : Republic of Botswana : Sub-Saharan Africa
+CAF : Central African Republic : Central African Republic : Sub-Saharan Africa
+CAN : Canada : Canada : North America
+CHE : Switzerland : Switzerland : Europe & Central Asia
+CHI : Channel Islands : Channel Islands : Europe & Central Asia
+CHL : Chile : Republic of Chile : Latin America & Caribbean
+CHN : China : People's Republic of China : East Asia & Pacific
+CIV : CÃ´te d'Ivoire : Republic of CÃ´te d'Ivoire : Sub-Saharan Africa
+CMR : Cameroon : Republic of Cameroon : Sub-Saharan Africa
+COG : Congo, Rep. : Republic of Congo : Sub-Saharan Africa
+COL : Colombia : Republic of Colombia : Latin America & Caribbean
+COM : Comoros : Union of the Comoros : Sub-Saharan Africa
+CPV : Cape Verde : Republic of Cape Verde : Sub-Saharan Africa
+CRI : Costa Rica : Republic of Costa Rica : Latin America & Caribbean
+CUB : Cuba : Republic of Cuba : Latin America & Caribbean
+CYM : Cayman Islands : Cayman Islands : Latin America & Caribbean
+CYP : Cyprus : Republic of Cyprus : Europe & Central Asia
+CZE : Czech Republic : Czech Republic : Europe & Central Asia
+DEU : Germany : Federal Republic of Germany : Europe & Central Asia
+DJI : Djibouti : Republic of Djibouti : Middle East & North Africa
+DMA : Dominica : Commonwealth of Dominica : Latin America & Caribbean
+DNK : Denmark : Kingdom of Denmark : Europe & Central Asia
+DOM : Dominican Republic : Dominican Republic : Latin America & Caribbean
+DZA : Algeria : People's Democratic Republic of Algeria : Middle East & North Africa
+ECU : Ecuador : Republic of Ecuador : Latin America & Caribbean
+EGY : Egypt, Arab Rep. : Arab Republic of Egypt : Middle East & North Africa
+ERI : Eritrea : State of Eritrea : Sub-Saharan Africa
+ESP : Spain : Kingdom of Spain : Europe & Central Asia
+EST : Estonia : Republic of Estonia : Europe & Central Asia
+ETH : Ethiopia : Federal Democratic Republic of Ethiopia : Sub-Saharan Africa
+FIN : Finland : Republic of Finland : Europe & Central Asia
+FJI : Fiji : Republic of Fiji : East Asia & Pacific
+FRA : France : French Republic : Europe & Central Asia
+FRO : Faeroe Islands : Faeroe Islands : Europe & Central Asia
+FSM : Micronesia, Fed. Sts. : Federated States of Micronesia : East Asia & Pacific
+GAB : Gabon : Gabonese Republic : Sub-Saharan Africa
+GBR : United Kingdom : United Kingdom of Great Britain and Northern Ireland : Europe & Central Asia
+GEO : Georgia : Georgia : Europe & Central Asia
+GHA : Ghana : Republic of Ghana : Sub-Saharan Africa
+GIB : Gibraltar : Gibraltar : Europe & Central Asia
+GIN : Guinea : Republic of Guinea : Sub-Saharan Africa
+GMB : Gambia, The : Republic of The Gambia : Sub-Saharan Africa
+GNB : Guinea-Bissau : Republic of Guinea-Bissau : Sub-Saharan Africa
+GNQ : Equatorial Guinea : Republic of Equatorial Guinea : Sub-Saharan Africa
+GRC : Greece : Hellenic Republic : Europe & Central Asia
+GRD : Grenada : Grenada : Latin America & Caribbean
+GRL : Greenland : Greenland : Europe & Central Asia
+GTM : Guatemala : Republic of Guatemala : Latin America & Caribbean
+GUM : Guam : Guam : East Asia & Pacific
+GUY : Guyana : Republic of Guyana : Latin America & Caribbean
+HKG : Hong Kong SAR, China : Hong Kong Special Administrative Region of the People's Republic of China : East Asia & Pacific
+HND : Honduras : Republic of Honduras : Latin America & Caribbean
+HRV : Croatia : Republic of Croatia : Europe & Central Asia
+HTI : Haiti : Republic of Haiti : Latin America & Caribbean
+HUN : Hungary : Republic of Hungary : Europe & Central Asia
+IDN : Indonesia : Republic of Indonesia : East Asia & Pacific
+IMY : Isle of Man : Isle of Man : Europe & Central Asia
+IND : India : Republic of India : South Asia
+IRL : Ireland : Ireland : Europe & Central Asia
+IRN : Iran, Islamic Rep. : Islamic Republic of Iran : Middle East & North Africa
+IRQ : Iraq : Republic of Iraq : Middle East & North Africa
+ISL : Iceland : Republic of Iceland : Europe & Central Asia
+ISR : Israel : State of Israel : Middle East & North Africa
+ITA : Italy : Italian Republic : Europe & Central Asia
+JAM : Jamaica : Jamaica : Latin America & Caribbean
+JOR : Jordan : Hashemite Kingdom of Jordan : Middle East & North Africa
+JPN : Japan : Japan : East Asia & Pacific
+KAZ : Kazakhstan : Republic of Kazakhstan : Europe & Central Asia
+KEN : Kenya : Republic of Kenya : Sub-Saharan Africa
+KGZ : Kyrgyz Republic : Kyrgyz Republic : Europe & Central Asia
+KHM : Cambodia : Kingdom of Cambodia : East Asia & Pacific
+KIR : Kiribati : Republic of Kiribati : East Asia & Pacific
+KNA : St. Kitts and Nevis : St. Kitts and Nevis : Latin America & Caribbean
+KOR : Korea, Rep. : Republic of Korea : East Asia & Pacific
+KSV : Kosovo : Republic of Kosovo : Europe & Central Asia
+KWT : Kuwait : State of Kuwait : Middle East & North Africa
+LAO : Lao PDR : Lao People's Democratic Republic : East Asia & Pacific
+LBN : Lebanon : Lebanese Republic : Middle East & North Africa
+LBR : Liberia : Republic of Liberia : Sub-Saharan Africa
+LBY : Libya : Socialist People's Libyan Arab Jamahiriya : Middle East & North Africa
+LCA : St. Lucia : St. Lucia : Latin America & Caribbean
+LIE : Liechtenstein : Principality of Liechtenstein : Europe & Central Asia
+LKA : Sri Lanka : Democratic Socialist Republic of Sri Lanka : South Asia
+LSO : Lesotho : Kingdom of Lesotho : Sub-Saharan Africa
+LTU : Lithuania : Republic of Lithuania : Europe & Central Asia
+LUX : Luxembourg : Grand Duchy of Luxembourg : Europe & Central Asia
+LVA : Latvia : Republic of Latvia : Europe & Central Asia
+MAC : Macao SAR, China : Macao Special Administrative Region of the People's Republic of China : East Asia & Pacific
+MAR : Morocco : Kingdom of Morocco : Middle East & North Africa
+MCO : Monaco : Principality of Monaco : Europe & Central Asia
+MDA : Moldova : Republic of Moldova : Europe & Central Asia
+MDG : Madagascar : Republic of Madagascar : Sub-Saharan Africa
+MDV : Maldives : Republic of Maldives : South Asia
+MEX : Mexico : United Mexican States : Latin America & Caribbean
+MHL : Marshall Islands : Republic of the Marshall Islands : East Asia & Pacific
+MKD : Macedonia, FYR : Former Yugoslav Republic of Macedonia : Europe & Central Asia
+MLI : Mali : Republic of Mali : Sub-Saharan Africa
+MLT : Malta : Republic of Malta : Middle East & North Africa
+MMR : Myanmar : Union of Myanmar : East Asia & Pacific
+MNE : Montenegro : Montenegro : Europe & Central Asia
+MNG : Mongolia : Mongolia : East Asia & Pacific
+MNP : Northern Mariana Islands : Commonwealth of the Northern Mariana Islands : East Asia & Pacific
+MOZ : Mozambique : Republic of Mozambique : Sub-Saharan Africa
+MRT : Mauritania : Islamic Republic of Mauritania : Sub-Saharan Africa
+MUS : Mauritius : Republic of Mauritius : Sub-Saharan Africa
+MWI : Malawi : Republic of Malawi : Sub-Saharan Africa
+MYS : Malaysia : Malaysia : East Asia & Pacific
+MYT : Mayotte : Mayotte : Sub-Saharan Africa
+NAM : Namibia : Republic of Namibia : Sub-Saharan Africa
+NCL : New Caledonia : New Caledonia : East Asia & Pacific
+NER : Niger : Republic of Niger : Sub-Saharan Africa
+NGA : Nigeria : Federal Republic of Nigeria : Sub-Saharan Africa
+NIC : Nicaragua : Republic of Nicaragua : Latin America & Caribbean
+NLD : Netherlands : Kingdom of the Netherlands : Europe & Central Asia
+NOR : Norway : Kingdom of Norway : Europe & Central Asia
+NPL : Nepal : Nepal : South Asia
+NZL : New Zealand : New Zealand : East Asia & Pacific
+OMN : Oman : Sultanate of Oman : Middle East & North Africa
+PAK : Pakistan : Islamic Republic of Pakistan : South Asia
+PAN : Panama : Republic of Panama : Latin America & Caribbean
+PER : Peru : Republic of Peru : Latin America & Caribbean
+PHL : Philippines : Republic of the Philippines : East Asia & Pacific
+PLW : Palau : Republic of Palau : East Asia & Pacific
+PNG : Papua New Guinea : The Independent State of Papua New Guinea : East Asia & Pacific
+POL : Poland : Republic of Poland : Europe & Central Asia
+PRI : Puerto Rico : Puerto Rico : Latin America & Caribbean
+PRK : Korea, Dem. Rep. : Democratic People's Republic of Korea : East Asia & Pacific
+PRT : Portugal : Portuguese Republic : Europe & Central Asia
+PRY : Paraguay : Republic of Paraguay : Latin America & Caribbean
+PYF : French Polynesia : French Polynesia : East Asia & Pacific
+QAT : Qatar : State of Qatar : Middle East & North Africa
+ROM : Romania : Romania : Europe & Central Asia
+RUS : Russian Federation : Russian Federation : Europe & Central Asia
+RWA : Rwanda : Republic of Rwanda : Sub-Saharan Africa
+SAU : Saudi Arabia : Kingdom of Saudi Arabia : Middle East & North Africa
+SDN : Sudan : Republic of the Sudan : Sub-Saharan Africa
+SEN : Senegal : Republic of Senegal : Sub-Saharan Africa
+SGP : Singapore : Republic of Singapore : East Asia & Pacific
+SLB : Solomon Islands : Solomon Islands : East Asia & Pacific
+SLE : Sierra Leone : Republic of Sierra Leone : Sub-Saharan Africa
+SLV : El Salvador : Republic of El Salvador : Latin America & Caribbean
+SMR : San Marino : Republic of San Marino : Europe & Central Asia
+SOM : Somalia : Somali Democratic Republic : Sub-Saharan Africa
+SRB : Serbia : Republic of Serbia : Europe & Central Asia
+STP : SÃ£o TomÃ© and Principe : Democratic Republic of SÃ£o TomÃ© and Principe : Sub-Saharan Africa
+SUR : Suriname : Republic of Suriname : Latin America & Caribbean
+SVK : Slovak Republic : Slovak Republic : Europe & Central Asia
+SVN : Slovenia : Republic of Slovenia : Europe & Central Asia
+SWE : Sweden : Kingdom of Sweden : Europe & Central Asia
+SWZ : Swaziland : Kingdom of Swaziland : Sub-Saharan Africa
+SYC : Seychelles : Republic of Seychelles : Sub-Saharan Africa
+SYR : Syrian Arab Republic : Syrian Arab Republic : Middle East & North Africa
+TCA : Turks and Caicos Islands : Turks and Caicos Islands : Latin America & Caribbean
+TCD : Chad : Republic of Chad : Sub-Saharan Africa
+TGO : Togo : Republic of Togo : Sub-Saharan Africa
+THA : Thailand : Kingdom of Thailand : East Asia & Pacific
+TJK : Tajikistan : Republic of Tajikistan : Europe & Central Asia
+TKM : Turkmenistan : Turkmenistan : Europe & Central Asia
+TMP : Timor-Leste : Democratic Republic of Timor-Leste : East Asia & Pacific
+TON : Tonga : Kingdom of Tonga : East Asia & Pacific
+TTO : Trinidad and Tobago : Republic of Trinidad and Tobago : Latin America & Caribbean
+TUN : Tunisia : Republic of Tunisia : Middle East & North Africa
+TUR : Turkey : Republic of Turkey : Europe & Central Asia
+TUV : Tuvalu : Tuvalu : East Asia & Pacific
+TZA : Tanzania : United Republic of Tanzania : Sub-Saharan Africa
+UGA : Uganda : Republic of Uganda : Sub-Saharan Africa
+UKR : Ukraine : Ukraine : Europe & Central Asia
+URY : Uruguay : Oriental Republic of Uruguay : Latin America & Caribbean
+USA : United States : United States of America : North America
+UZB : Uzbekistan : Republic of Uzbekistan : Europe & Central Asia
+VCT : St. Vincent and the Grenadines : St. Vincent and the Grenadines : Latin America & Caribbean
+VEN : Venezuela, RB : RepÃºblica Bolivariana de Venezuela : Latin America & Caribbean
+VIR : Virgin Islands (U.S.) : Virgin Islands of the United States : Latin America & Caribbean
+VNM : Vietnam : Socialist Republic of Vietnam : East Asia & Pacific
+VUT : Vanuatu : Republic of Vanuatu : East Asia & Pacific
+WBG : West Bank and Gaza : West Bank and Gaza : Middle East & North Africa
+WSM : Samoa : Samoa : East Asia & Pacific
+YEM : Yemen, Rep. : Republic of Yemen : Middle East & North Africa
+ZAF : South Africa : Republic of South Africa : Sub-Saharan Africa
+ZAR : Congo, Dem. Rep. : Democratic Republic of the Congo : Sub-Saharan Africa
+ZMB : Zambia : Republic of Zambia : Sub-Saharan Africa
+ZWE : Zimbabwe : Republic of Zimbabwe : Sub-Saharan Africa
