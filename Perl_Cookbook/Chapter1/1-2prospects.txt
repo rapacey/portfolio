@@ -1,0 +1,5 @@
+ID:5521|Name:Miller,Chris|Term:Fall 2026|Res:R
+ID:4432|Name:Jordan,Alex|Term:|Res:R
+ID:3341|Name:Pacey,Rob|Term:Spring 2027|Res:
+ID:2210|Name:Doe,John|Term:|Res:
+ID:1105|Name:Smith,Jane|Term:Summer 2026|Res:O
