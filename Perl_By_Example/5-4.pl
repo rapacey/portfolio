@@ -35,7 +35,7 @@ while (1) {
     } else {
         print "Invalid input. Please enter a valid name (letters and spaces only).\n";
     }
-};
+}
 
 #3. Collect and validate student ID
 
@@ -48,7 +48,7 @@ while (1) {
     } else {
         print "Invalid input. Please enter a valid 9-digit student ID.\n";
     }
-};
+}
 
 #4. Collect and validate student address
 
@@ -60,18 +60,21 @@ while (1) {
         last;
     } else {
         print "Invalid input. Please enter a valid city name (letters and spaces only).\n";
-    };
+    }
+}
 
 my $state = '';
 while (1) {
     print "State (2-letter abbreviation): ";
     chomp($state = <STDIN>);
+    $state = uc($state);      #Convert to uppercase input
+
     if ($state =~ /^[A-Z]{2}$/) {
         last;
     } else {
         print "Invalid input. Please enter a valid 2-letter state abbreviation (uppercase letters only).\n";
     }
-};
+}
 
 my $zip_code = '';
 while (1) {
@@ -82,7 +85,7 @@ while (1) {
     } else {
         print "Invalid input. use '12345' or '12345-6789' format.\n";
     }
-};
+}
 
 #5. Display the course electives menu
 
@@ -99,12 +102,13 @@ while (1) {
     chomp($user_input = <STDIN>);
     my $upper_input = uc($user_input); # Convert input to uppercase for case-insensitive comparison
     
-    if (exists $courses{$user_input}) {
+    if (exists $courses{$upper_input}) {
+	$user_input = $upper_input;
         last;
     } else {
         print "Invalid course code. Please try again.\n";
     }
-};
+}
 
 #7. Display the registration confirmation 
 
@@ -124,4 +128,4 @@ my $confirmation_number = int(rand(1000000)); # Generate a random confirmation n
 print "Your registration confirmation number is: $confirmation_number\n";
 
 my($first_name, $last_name) = split(/\s+/, $full_name);
-print "Thank you, $first_name, for registering for the course!";
+print "Thank you, $first_name, for registering for the course!\n";

@@ -1,4 +1,4 @@
-#!usr/bin/perl 
+#!/usr/bin/perl 
 
 use strict;
 use warnings;
@@ -7,12 +7,12 @@ use warnings;
 
 my @names = qw(Nick Susan Chet Dolly Bill);
 
-print "The names in the array are:\n";
+print "The names in the array are: @names\n";
 
 #Replace Susan and Chet with Ellie, Beatrice, and Charles
 
-my @names = splice(@names, 1, 2, qw(Ellie Beatrice Charles));
-print "The names in the array are:\n";
+splice(@names, 1, 2, qw(Ellie Beatrice Charles));
+print "The names in the array are: @names\n";
 
 #Remove Bill from the array
 
@@ -22,7 +22,7 @@ print "Removed name: $removed_name\n";
 #On the end of the array, add Lewis and Izzy
 
 push @names, qw(Lewis Izzy);
-print "The names in the array are:\n";
+print "The names in the array are: @names\n";
 
 #Remove Nick from the beginning of the array
 
@@ -37,7 +37,7 @@ print "The names in reverse order are: @reversed_names\n";
 #On the beginning of the array, add Archie
 
 unshift @names, "Archie";
-print "The names in the array are:\n";
+print "The names in the array are: @names\n";
 
 #Sort the array
 
@@ -46,5 +46,5 @@ print "The names in sorted order are: @sorted_names\n";
 
 #Remove Chet and Dolly and replace them with Christian and Daniel
 
-my @names = splice(@names, 2, 2, qw(Christian Daniel));
-print "The names in the array are:\n";
+splice(@names, 2, 2, qw(Christian Daniel));
+print "The names in the array are: @names\n";
