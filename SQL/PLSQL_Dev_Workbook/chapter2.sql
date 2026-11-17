@@ -180,6 +180,7 @@ BEGIN
         result := result * base;
     END LOOP;
 
+
 -- Print the final result
     dbms_output.put_line(base || ' raised to the power of ' || exponent || ' is ' || result);
 END;
