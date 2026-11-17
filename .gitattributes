@@ -1,2 +1,3 @@
-*.sql linguist-detectable=true
-*.sql linguist-language=PLSQL
+
+portfolio/SQL/PLSQL_Dev_Handbook.sql linguist-detectable=true
+portfolio/SQL/PLSQL_Dev_Handbook.sql linguist-language=PLSQL
