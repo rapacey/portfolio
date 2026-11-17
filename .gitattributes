@@ -1,3 +1,3 @@
 
-portfolio/SQL/PLSQL_Dev_Handbook.sql linguist-detectable=true
-portfolio/SQL/PLSQL_Dev_Handbook.sql linguist-language=PLSQL
+SQL/PLSQL_Dev_Workbook/**/*.sql linguist-detectable=true
+SQL/PLSQL_Dev_Workbook/**/*.sql linguist-language=PLSQL
