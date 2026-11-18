@@ -1,2 +1,2 @@
-SQL/PLSQL_Dev_Workbook/chapter2.sql linguist-detectable=true
-SQL/PLSQL_Dev_Workbook/chapter2.sql linguist-language=PLSQL
+SQL/PLSQL_Dev_Workbook/*.sql linguist-detectable=true
+SQL/PLSQL_Dev_Workbook/*.sql linguist-language=PLSQL
