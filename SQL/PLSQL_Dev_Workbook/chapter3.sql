@@ -24,4 +24,20 @@ END;
 
 CASE
   WHEN total_sales <= 0 THEN
-  
+  no_revenue := TRUE;
+  WHEN total_sales > 0 THEN
+  no_revenue := FALSE;
+END CASE;
+
+-- Cleaner code
+
+CASE WHEN total_sales <= 0
+THEN TRUE
+ELSE FALSE
+END CASE;
+
+-- Evaluate directly to a Boolean value
+
+BEGIN
+  no_revenue := (total_sales <= 0);
+END;
