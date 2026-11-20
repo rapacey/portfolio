@@ -1,3 +1,9 @@
+# 1. Set a default dialect for ALL .sql files so none are left to guessing
 *.sql linguist-language=SQL
+
+# 2. Override specific folders with their exact dialect
+SQL/PLSQL_Dev_Workbook/*.sql linguist-language=PLSQL
+
+# 3. Force GitHub to include large or dump-like SQL files in the stats
 *.sql linguist-detectable=true
-*.sql text
+*.sql linguist-generated=false
