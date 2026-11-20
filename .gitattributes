@@ -3,7 +3,6 @@
 
 # 2. Override specific folders with their exact dialect
 SQL/PLSQL_Dev_Workbook/*.sql linguist-language=PLSQL
-SQL/Other_SQL_HW/*.sql linguist-language=PLSQL
 
 # 3. Force GitHub to include large or dump-like SQL files in the stats
 *.sql linguist-detectable=true
